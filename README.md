@@ -33,7 +33,7 @@ Before running the Discord Cinebench Bot, make sure you have the following prere
    ```
 2. Build the docker image:
    ```bash
-   docker build -t discord-cinebench-bot .
+   docker build -t discord_cinebench_bot .
    ```
 3. Edit the docker-compose.yml file and replace the two environment variables with the ones you use.
 4. Run the bot using Docker Compose:
