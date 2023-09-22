@@ -1,0 +1,9 @@
+version: '3'
+services:
+  discord_cinebench_bot:
+    image: discord_cinebench_bot
+    environment:
+      - DISCORD_BOT_TOKEN="YourBotToken"
+      - DISCORD_CHANNEL_ID="YourChannelID"
+    volumes:
+      - /path/on/host:/app
