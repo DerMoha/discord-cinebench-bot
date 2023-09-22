@@ -111,7 +111,7 @@ async def start(ctx):
             else None
         )
 
-        if cinebench_version.lower() not in ["r23", "2024", "skip"]:
+        if cinebench_version not in ["r23", "2024", "skip"]:
             await ctx.send(
                 'Invalid input for Cinebench version. Please enter "R23," "2024," or "skip" for default which is "2024".'
             )
