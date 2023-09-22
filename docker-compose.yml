@@ -6,4 +6,4 @@ services:
       - DISCORD_BOT_TOKEN="YourBotToken"
       - DISCORD_CHANNEL_ID="YourChannelID"
     volumes:
-      - /path/on/host:/app
+      - ./database:/app/database

@@ -17,7 +17,7 @@ intents.presences = False
 bot = commands.Bot(command_prefix="/", intents=intents)
 
 # Define a SQLite database
-db = SqliteDatabase("cpu_scores.db")
+db = SqliteDatabase("/database/cpu_scores.db")
 
 
 # Define a model for the database table
